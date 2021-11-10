@@ -1,0 +1,85 @@
+html, body{
+	padding:0;
+	margin:0;
+}
+
+
+body {
+  background-image: url("coucher_de_soleil.jpg");
+  background-attachment:fixed;
+  font-size: 16px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding:50px 0 0 0;
+  text-decoration:underline;
+}
+
+p{
+	font-size:2em;
+	color: white;
+	font-weight: bold;
+	float:left;
+	
+}
+
+.bandeau{
+	border: 2px dotted red;
+}
+
+
+table{
+	width:100%;
+	border: 1px solid white;
+	border-collapse:collapse;
+	margin: 25px 0 0 0;
+}
+
+th{
+	
+	color:white;
+	border: 1px solid white;
+	text-align:center;
+	font-size:24px;
+	width:33%;
+}
+
+img{
+	float:left;
+	margin: 0 50px 0 50px;
+	width: 560px;
+	height: 315px;
+	vertical-align:top;
+	
+	
+}
+
+span{
+	float:right;
+}
+
+
+
+
+a:link {
+  color: white;
+  text-decoration:none;
+  font-size:24px;
+}
+
+
+a:visited {
+  color: white;
+}
+
+
+th:hover {
+  background-color: hotpink;
+}
+
+
+a:active {
+  color: blue;
+} 
